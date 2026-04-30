@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式 - GX挑战者协会</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">GX挑战者协会</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="members.html">成员风采</a></li>
+                <li><a href="news.html">最新动态</a></li>
+                <li><a href="contact.html" class="active">联系方式</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1>联系我们</h1>
+            <p>有任何问题或建议？欢迎与我们取得联系</p>
+        </div>
+    </section>
+
+    <!-- 联系信息卡片 -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <h3>电子邮件</h3>
+                    <p><a href="mailto:info@gxchallengers.com">info@gxchallengers.com</a></p>
+                    <p class="desc">发送邮件进行咨询、建议或报名</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📱</div>
+                    <h3>联系电话</h3>
+                    <p><a href="tel:+8613345678900">(+86) 133-4567-8900</a></p>
+                    <p class="desc">工作时间：周一至周五 10:00-18:00</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>办公地点</h3>
+                    <p>学生活动中心 307室</p>
+                    <p class="desc">欢迎来访咨询或参加活动</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">⏰</div>
+                    <h3>办公时间</h3>
+                    <p>周一至周五：14:00-18:00</p>
+                    <p>周末：10:00-16:00</p>
+                    <p class="desc">假期另行通知</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系表单 -->
+    <section class="contact-form-section">
+        <div class="container">
+            <h2>在线留言</h2>
+            <div class="form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">姓名 *</label>
+                        <input type="text" id="name" name="name" required placeholder="请输入您的姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱 *</label>
+                        <input type="email" id="email" name="email" required placeholder="请输入您的邮箱地址">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">电话</label>
+                        <input type="tel" id="phone" name="phone" placeholder="请输入您的联系电话">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">主题 *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- 请选择主题 --</option>
+                            <option value="inquiry">咨询</option>
+                            <option value="join">加入协会</option>
+                            <option value="cooperate">合作洽谈</option>
+                            <option value="feedback">意见反馈</option>
+                            <option value="other">其他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言 *</label>
+                        <textarea id="message" name="message" required placeholder="请输入您的留言内容..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">提交留言</button>
+                    </div>
+                </form>
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <p>✓ 感谢您的留言！我们会尽快与您联系。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交媒体 -->
+    <section class="social-media">
+        <div class="container">
+            <h2>关注我们</h2>
+            <p>通过以下方式关注协会动态</p>
+            <div class="social-links">
+                <a href="#" class="social-icon" title="微信公众号">
+                    <span>📱</span>
+                    <span>微信</span>
+                </a>
+                <a href="#" class="social-icon" title="QQ群">
+                    <span>💬</span>
+                    <span>QQ群</span>
+                </a>
+                <a href="#" class="social-icon" title="微博">
+                    <span>🐦</span>
+                    <span>微博</span>
+                </a>
+                <a href="#" class="social-icon" title="小红书">
+                    <span>❤️</span>
+                    <span>小红书</span>
+                </a>
+                <a href="#" class="social-icon" title="抖音">
+                    <span>🎵</span>
+                    <span>抖音</span>
+                </a>
+                <a href="#" class="social-icon" title="B站">
+                    <span>▶️</span>
+                    <span>B站</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>常见问题</h2>
+            <div class="faq-items">
+                <div class="faq-item">
+                    <div class="faq-question">Q: 我可以什么时候加入协会？</div>
+                    <div class="faq-answer">A: 协会全年接收新成员申请。每学期初会进行集中招新，具体时间会通过官网和社交媒体公布。随时欢迎有志青年加入！</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q: 加入协会需要哪些条件？</div>
+                    <div class="faq-answer">A: 我们欢迎所有热情、有想法、愿意为团队做出贡献的同学。无需特殊条件，只要你有热情和责任心就可以申请。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q: 协会主要开展哪些活动？</div>
+                    <div class="faq-answer">A: 协会定期组织各类活动，包括：团队建设、技能培训、才艺展示、外联合作等。活动形式多样，既有线下活动也有线上活动。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q: 我可以同时参加多个部门吗？</div>
+                    <div class="faq-answer">A: 可以的！如果你有兴趣和时间，完全可以参加多个部门的工作。我们鼓励成员发挥多方面才能。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q: 加入协会有什么收获？</div>
+                    <div class="faq-answer">A: 加入协会，你将获得：锻炼个人能力、拓展人脉、参与有趣活动、展示自我、获得成长和快乐。更重要的是，成为一个充满活力的大家庭的一员。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何报名加入协会？</div>
+                    <div class="faq-answer">A: 您可以通过以下方式报名：1) 发送邮件至info@gxchallengers.com；2) 拨打联系电话；3) 访问学生活动中心307室；4) 关注微信公众号报名。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>关于协会</h4>
+                <p>GX挑战者协会是一个充满活力的社团组织，致力于为成员提供展示自我、挑战自我的平台。</p>
+            </div>
+            <div class="footer-section">
+                <h4>快速链接</h4>
+                <ul>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="members.html">成员风采</a></li>
+                    <li><a href="news.html">最新动态</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>联系我们</h4>
+                <p>邮箱：info@gxchallengers.com</p>
+                <p>电话：(+86) 123-4567-8900</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 GX挑战者协会. 版权所有 | 打破极限·追求卓越</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
